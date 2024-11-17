@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://OrionAersospaceWebsite.github.io/sitemap.xml
+Sitemap: https://orionaerospacewebsite.github.io//sitemap.xml
