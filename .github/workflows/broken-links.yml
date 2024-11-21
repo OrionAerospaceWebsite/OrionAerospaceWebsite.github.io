@@ -20,6 +20,7 @@ on:
       - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
       - "!**/projects.md"
+      - "!CUSTOMIZE.md"
   pull_request:
     branches:
       - master
