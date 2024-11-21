@@ -1304,3 +1304,87 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+
+
+.titleIcon {
+  background-image: url(/assets/img/SK_logo.png); /* 16px x 16px */
+  background-color: transparent; /* transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 0px 0px;  /* equivalent to 'top left' */
+  background-size: 170px;
+  border: none;           /* assuming we don't want any borders */
+  cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  height: 60px;           /* make this the size of your image */
+  width: 170px;
+  padding: 0px;
+  vertical-align: middle; /* align the text vertically centered */
+  margin: 0px;
+}
+
+.img_button{
+  background-color: transparent; /* transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 0px 0px;  /* equivalent to 'top left' */
+  background-size: 40px;
+  border: none;           /* assuming we don't want any borders */
+  cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  vertical-align: middle; /* align the text vertically centered */
+  margin: auto;
+  padding-top: 37px;
+  text-align: center;
+  
+}
+
+.button_container{
+  height: 60px;           /* make this the size of your image */
+  width: 60px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+}
+
+#GUI {
+  background-image: url(/assets/img/Stem_logo_GUI_website.svg); /* 16px x 16px */
+  background-position: 50% 1%;
+
+}
+
+#STEM {
+  
+  background-image: url(/assets/img/Stem_logo_website.svg); /* 16px x 16px */
+  background-position: 50% 1%;
+
+}
+
+#ConsciOS {
+  
+  background-image: url(/assets/img/Stem_logo_Consc_website.svg); /* 16px x 16px */
+  background-position: 90% 1%;
+  text-align: left;
+
+}
+
+#headderVideo {
+    width: 75%;
+    height: 460px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    padding-top: 10%;
+    border-width: 0;
+    text-align: center;
+}
+
+body  {
+  background-image: url(/assets/img/largeWebsiteBackground.svg);
+  // background-repeat: repeat-x;
+  // background-repeat: repeat-y;
+  // background-size: 100% 100%;
+  background-size: cover;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  
+}
